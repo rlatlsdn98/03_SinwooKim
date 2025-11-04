@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13858cac-fb1f-4b9d-b316-9a34d15dca07" name="변경" comment="변경">
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+    <list default="true" id="13858cac-fb1f-4b9d-b316-9a34d15dca07" name="변경" comment="SELECT ~ WHERE 실습문제">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_sinwooKim/03_where.sql" beforeDir="false" afterPath="$PROJECT_DIR$/03_sinwooKim/03_where.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_sinwooKim/db_script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/03_sinwooKim/db_script.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +60,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="변경" />
+    <MESSAGE value="SELECT ~ WHERE 실습문제" />
+    <option name="LAST_COMMIT_MESSAGE" value="SELECT ~ WHERE 실습문제" />
   </component>
 </project>
