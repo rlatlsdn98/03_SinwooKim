@@ -147,3 +147,55 @@ WHERE menu_name LIKE '_____'; -- 다섯글자 메뉴명만 조회
 SELECT menu_name
 FROM tbl_menu
 WHERE menu_name NOT LIKE '_____'; -- 다섯글자 메뉴명 아닌 데이터만 조회
+
+/*
+_,% 와일드카드 사용 시 문자열인지, 와일드카드인지 구분해서 사용하는 방법
+1) ESCAPE OPTION : ESCAPE OPTION을 사용해 와일드카드를 문자열로 탈출
+2)\(백슬래시) 이용 :
+*/
+
+SELECT *
+FROM tbl_temp
+WHERE temp_email LIKE '___#_%' ESCAPE '#'; -- 다섯글자 메뉴명 아닌 데이터만 조회
+
+SELECT *
+FROM tbl_temp
+WHERE temp_email LIKE '___\_%';
+
+/*
+IN, NOT IN
+    - 찾는 값이 () 안에 있으면 결과에 포함 == OR연산을 연달아 작성하는 효과
+*/
+SELECT *
+FROM tbl_menu
+WHERE category_code = 4 OR category_code = 5 OR category_code = 6 OR category_code = 10
+ORDER BY category_code;
+
+-- IN
+SELECT *
+FROM tbl_menu
+WHERE category_code IN (4,5,6,10)
+ORDER BY category_code;
+
+-- NOT IN
+SELECT *
+FROM tbl_menu
+WHERE category_code NOT IN (4,5,6,10)
+ORDER BY category_code;
+
+/*
+NULL 관련 연산
+    - NULL == 빈칸(값X) --> 비교 연산이 불가능하다.
+*/
+SELECT *
+FROM tbl_category
+WHERE ref_category_code = NULL; -- 비교 연산 불가능하다
+
+-- IS NULL : 해당 칼럼의 값이 NULL(빈칸) 이면 TRUE 아니면 FALSE 반환
+SELECT *
+FROM tbl_category
+WHERE ref_category_code IS NULL;
+
+SELECT *
+FROM tbl_category
+WHERE ref_category_code IS NOT NULL;

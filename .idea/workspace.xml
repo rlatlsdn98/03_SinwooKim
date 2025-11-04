@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13858cac-fb1f-4b9d-b316-9a34d15dca07" name="변경" comment="변경">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1e9a8885-b582-4d73-bd73-44705ab46b7c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1e9a8885-b582-4d73-bd73-44705ab46b7c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f33592f9-7329-4275-b5b1-41621a52b14c.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f33592f9-7329-4275-b5b1-41621a52b14c/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f33592f9-7329-4275-b5b1-41621a52b14c/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f33592f9-7329-4275-b5b1-41621a52b14c/storage_v2/_src_/schema/mysql.osA4Bg.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/00_계정생성.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_select.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/02_order_by.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/03_sinwooKim/03_where.sql" beforeDir="false" afterPath="$PROJECT_DIR$/03_sinwooKim/03_where.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03_where.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db_script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03_sinwooKim/db_script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/03_sinwooKim/db_script.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
